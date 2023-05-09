@@ -3,9 +3,9 @@
 
 
 a = (23,44,24,33,66,45)
-b = list(a)
-print(b)
-b.append(60)
-print(b)
-a = tuple(b)
+a = list(a)
+print(a)
+a.append(60)
+print(a)
+a = tuple(a)
 print(a)
